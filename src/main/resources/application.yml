@@ -1,0 +1,30 @@
+#spring:
+#  main:
+#    show-banner: false
+
+amazon:
+  myprop: hello
+
+
+server:
+  port: 8443
+  ssl:
+    key-store: file:///Users/mcalavera81/mykeys.jks
+    key-store-password: letmein
+    key-password: letmein
+
+
+#debug: true
+
+blabla:
+  secret: yuhu
+
+logging:
+  level:
+    root: INFO
+    org.springframework.security: WARN
+
+
+
+
+
